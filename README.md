@@ -1,6 +1,6 @@
 # 🧠 Telugu Mental Health Sentiment Analysis using MuRIL & NLP
 
-A machine learning project for detecting **mental health sentiment** in Telugu language texts. This includes classification into emotions such as `stress`, `happy`, `sad`, `anxious`, and `normal`. The model is built using **MuRIL embeddings**, handcrafted features, and TF-IDF vectors to detect emotional state from social media posts or user input.
+A machine learning project for detecting **mental health sentiment** in Telugu language texts. This includes classification into emotions such as `stress`, `normal`, `personality disorder`, `bipolar`, `anxiety`, `suicide` and `depression`. The model is built using **MuRIL embeddings**, handcrafted features, and TF-IDF vectors to detect emotional state from social media posts or user input.
 
 ---
 
@@ -19,7 +19,7 @@ To analyze Telugu text data and classify mental health-related sentiments, suppo
 - 🧠 Classification using ML models like `LightGBM`, `SVM`, `Random Forest`
 - 📊 Evaluation using confusion matrix, accuracy, F1-score, and classification report
 - 💾 Resumable embedding generation with checkpointing
-- 🔍 Supports `stress`, `happy`, `sad`, `anxious`, and `normal` categories
+- 🔍 Supports `stress`, `normal`, `personality disorder`, `bipolar`, `anxiety`, `suicide` and `depression` categories
 
 ---
 
