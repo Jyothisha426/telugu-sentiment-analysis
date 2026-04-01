@@ -378,28 +378,13 @@ df['avg_word_len'] = df['cleaned_statement'].apply(
 lexical_features = df[['sentence_len', 'avg_word_len']].values
 
 
-# In[ ]:
-
-
-pip install --upgrade transformers
 
 
 # In[ ]:
 
 
-pip install --upgrade transformers torch accelerate
+#pip uninstall transformers accelerate torch -y
 
-
-# In[ ]:
-
-
-pip uninstall transformers accelerate torch -y
-
-
-# In[ ]:
-
-
-pip install transformers==4.36.2 accelerate==0.26.1 torch==2.1.2
 
 
 # In[21]:
@@ -432,7 +417,7 @@ print("Embedding shape:", embedding.shape)
 # In[ ]:
 
 
-pip install stanza
+
 # Download Telugu language model (only once)
 stanza.download('te')
 
@@ -603,12 +588,6 @@ print(f"test_y shape:  {test_y.shape}")
 print("Unique classes in train_y:", np.unique(train_y))
 print("Train class distribution:", np.bincount(train_y))
 print("Test class distribution:", np.bincount(test_y))
-
-
-# In[ ]:
-
-
-pip install lightgbm
 
 
 # In[27]:
